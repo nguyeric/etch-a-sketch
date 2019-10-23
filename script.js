@@ -9,8 +9,8 @@ function createGrid() {
     for (i = 0; i < sides * sides; i++) {
         const square = document.createElement('div');
         square.classList.add('gridSquare');
-        square.style.width = 720/sides + 'px';
-        square.style.height = 720/sides + 'px';
+        square.style.width = 35/sides + 'em';
+        square.style.height = 35/sides + 'em';
         square.addEventListener('mouseover', e => {
             square.style.backgroundColor = "grey";
         })
