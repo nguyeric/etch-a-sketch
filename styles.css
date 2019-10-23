@@ -17,9 +17,7 @@
 }
 
 .gridSquare {
-    background-color: white;
-    display: inline-block;
-    margin-bottom: -4px;
+    background-color: #ffffff;
 }
 
 .grid {
@@ -29,6 +27,8 @@
     width: 720px;
     height: 720px;
     padding: 0;
-    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
 }
 
